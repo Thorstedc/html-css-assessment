@@ -1,0 +1,48 @@
+body {
+  background-image: url("./img/main-bg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+p {
+  color: red;
+  font-size: 2em;
+}
+
+.nav {
+  display:
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 2.2em;
+  margin: 0;
+  padding-top: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.your {
+  font-size: 9em;
+}
+.pp {
+  font-size: 4em;
+}
+.midScreen {
+  color: white;
+  text-align: center;
+  padding-top: 7em;
+  margin-bottom: 300px;
+  line-height: 2em;
+}
+.arrow {
+  max-width: 4em;
+  max-height: inherit;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
