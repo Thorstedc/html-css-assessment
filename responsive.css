@@ -1,0 +1,27 @@
+@media only screen and (max-width: 710px) {
+    /* For mobile phones: */
+.nav {
+  display: none;
+}
+.mobileNav {
+  float: right;
+  max-width: 2em;
+  max-height: 2em;
+  margin: 2em 1.2em 0 2em;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+.mobileNav1 {
+  margin: 2em 1.2em 0 2em;
+  max-width: 2em;
+  max-height: 2em;
+}
+}
+
+@media only screen and (min-width: 710px) {
+  .mobileNav, .mobileNav1 {
+    display: none;
+  }
+}
